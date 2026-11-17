@@ -6,6 +6,20 @@ window.PROTO_SCREENS = [
   "height": null
  },
  {
+  "id": "4C7N-0",
+  "name": "Overview \u00b7 add to a watchlist, menu open",
+  "slug": "overview-add-to-a-watchlist-menu-open",
+  "height": null,
+  "minHeight": 912.5
+ },
+ {
+  "id": "4CC7-0",
+  "name": "Retired instrument \u00b7 Overview (content is a first guess)",
+  "slug": "retired-instrument-overview",
+  "height": null,
+  "minHeight": 720
+ },
+ {
   "id": "3L2N-2",
   "name": "Health \u00b7 final proposal",
   "slug": "health-final-proposal",
@@ -36,6 +50,13 @@ window.PROTO_SCREENS = [
   "height": null
  },
  {
+  "id": "4C3C-0",
+  "name": "Health \u00b7 Hardware diagnostics \u00b7 report of one run (content is a first guess)",
+  "slug": "health-hardware-diagnostics-report-of-one-run",
+  "height": null,
+  "minHeight": 720
+ },
+ {
   "id": "3O41-1",
   "name": "Quality \u00b7 Calibration \u00b7 with Header C",
   "slug": "quality-calibration-with-header-c",
@@ -46,6 +67,13 @@ window.PROTO_SCREENS = [
   "name": "Quality \u00b7 Proteomics QC \u00b7 with Header C",
   "slug": "quality-proteomics-qc-with-header-c",
   "height": null
+ },
+ {
+  "id": "4BY8-0",
+  "name": "Quality \u00b7 Metabolomics QC (cards are a first guess)",
+  "slug": "quality-metabolomics-qc",
+  "height": null,
+  "minHeight": 810
  },
  {
   "id": "3NVQ-1",
@@ -70,6 +98,27 @@ window.PROTO_SCREENS = [
   "name": "LC \u00b7 Remora \u00b7 calm header",
   "slug": "lc-remora-calm-header",
   "height": null
+ },
+ {
+  "id": "4CEN-0",
+  "name": "LC \u00b7 Remora \u00b7 Readbacks (list of readbacks is a first guess)",
+  "slug": "lc-remora-readbacks",
+  "height": null,
+  "minHeight": 854
+ },
+ {
+  "id": "4CHO-0",
+  "name": "LC \u00b7 Remora \u00b7 LC procedures (columns are a first guess)",
+  "slug": "lc-remora-lc-procedures",
+  "height": null,
+  "minHeight": 626
+ },
+ {
+  "id": "4CN8-0",
+  "name": "LC \u00b7 Remora \u00b7 Settings (content is a first guess)",
+  "slug": "lc-remora-settings",
+  "height": null,
+  "minHeight": 830
  },
  {
   "id": "3UKO-1",
@@ -183,6 +232,27 @@ window.PROTO_SCREENS = [
   "height": null
  },
  {
+  "id": "4BIL-0",
+  "name": "Search \u00b7 results",
+  "slug": "search-results",
+  "height": null,
+  "minHeight": 727
+ },
+ {
+  "id": "4BNV-0",
+  "name": "Search \u00b7 nothing found",
+  "slug": "search-nothing-found",
+  "height": null,
+  "minHeight": 727
+ },
+ {
+  "id": "4CQ9-0",
+  "name": "Instruments \u00b7 All tab \u00b7 watchlist filter, menu open",
+  "slug": "instruments-all-tab-watchlist-filter-menu-open",
+  "height": null,
+  "minHeight": 727
+ },
+ {
   "id": "3MDE-1",
   "name": "Watchlist \u00b7 table",
   "slug": "watchlist-table",
@@ -232,6 +302,13 @@ window.PROTO_SCREENS = [
   "slug": "watchlist-name-menu-open",
   "height": null,
   "composed": true
+ },
+ {
+  "id": "4CVJ-0",
+  "name": "Watchlist \u00b7 add or remove instruments",
+  "slug": "watchlist-add-or-remove-instruments",
+  "height": null,
+  "minHeight": 848
  },
  {
   "id": "3MOW-1",
@@ -301,6 +378,41 @@ window.PROTO_SCREENS = [
   "slug": "account-menu-open",
   "height": 840,
   "composed": true
+ },
+ {
+  "id": "4BTR-0",
+  "name": "Account \u00b7 Settings (content is a first guess)",
+  "slug": "account-settings",
+  "height": null,
+  "minHeight": 900
+ },
+ {
+  "id": "4BVE-0",
+  "name": "Account \u00b7 Help (content is a first guess)",
+  "slug": "account-help",
+  "height": null,
+  "minHeight": 900
+ },
+ {
+  "id": "4CXO-0",
+  "name": "Help \u00b7 How to connect an instrument (steps are a first guess)",
+  "slug": "help-how-to-connect-an-instrument",
+  "height": null,
+  "minHeight": 770
+ },
+ {
+  "id": "4BX3-0",
+  "name": "Account \u00b7 Keyboard shortcuts, dialog (list is a first guess)",
+  "slug": "account-keyboard-shortcuts-dialog",
+  "height": null,
+  "composed": true
+ },
+ {
+  "id": "4BXT-0",
+  "name": "Sign in (how people sign in is a first guess)",
+  "slug": "sign-in",
+  "height": null,
+  "minHeight": 900
  },
  {
   "id": "414Q-0",

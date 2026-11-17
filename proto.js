@@ -12,7 +12,7 @@
   var all = Array.prototype.slice.call(root.querySelectorAll("*"));
   function find(text) { return all.filter(function (el) { return ownText(el) === text; }); }
   function climb(el, o) {
-    if (o.up) { for (var i = 0; i < o.up && el.parentElement !== root; i++) el = el.parentElement; return el; }
+    if (o.up !== undefined) { for (var i = 0; i < o.up && el.parentElement !== root; i++) el = el.parentElement; return el; }
     if (o.wide) { while (el.parentElement !== root && el.getBoundingClientRect().width < o.wide) el = el.parentElement; return el; }
     function quiet(p, c) {
       return Array.prototype.every.call(p.children, function (x) {
