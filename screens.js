@@ -134,6 +134,13 @@ window.PROTO_SCREENS = [
   "composed": true
  },
  {
+  "id": "4DSN-0",
+  "name": "Settings \u00b7 Invite a person, dialog \u00b7 could not be sent",
+  "slug": "settings-invite-a-person-dialog-could-not-be-sent",
+  "height": null,
+  "composed": true
+ },
+ {
   "id": "3UXJ-1",
   "name": "Settings \u00b7 Instrument \u00b7 person removed, Undo",
   "slug": "settings-instrument-person-removed-undo",
@@ -169,6 +176,12 @@ window.PROTO_SCREENS = [
   "id": "46AQ-0",
   "name": "Settings \u00b7 Email alerts \u00b7 just changed, Saved sign",
   "slug": "settings-email-alerts-just-changed-saved-sign",
+  "height": 794
+ },
+ {
+  "id": "4DYW-0",
+  "name": "Settings \u00b7 Email alerts \u00b7 change not saved, switch goes back",
+  "slug": "settings-email-alerts-change-not-saved",
   "height": 794
  },
  {
@@ -431,5 +444,75 @@ window.PROTO_SCREENS = [
   "name": "Add instrument \u00b7 added, message on the Instruments list",
   "slug": "add-instrument-added-message-on-the-instruments-list",
   "height": 900
+ },
+ {
+  "id": "4E60-0",
+  "name": "Typography \u00b7 Title \u00b7 Option 1 \u00b7 semi-bold, 40 px (only the weight changes)",
+  "slug": "typography-title-option-1-semi-bold-40-px-only-the-weight-changes",
+  "height": null,
+  "minHeight": 912.5
+ },
+ {
+  "id": "4EA0-0",
+  "name": "Typography \u00b7 Title \u00b7 Option 2 \u00b7 bold, 36 px",
+  "slug": "typography-title-option-2-bold-36-px",
+  "height": null,
+  "minHeight": 956.5
+ },
+ {
+  "id": "4EE0-0",
+  "name": "Typography \u00b7 Title \u00b7 Option 3 \u00b7 medium, 44 px, headings semi-bold",
+  "slug": "typography-title-option-3-medium-44-px-headings-semi-bold",
+  "height": null,
+  "minHeight": 968.5
+ },
+ {
+  "id": "4EI0-0",
+  "name": "Typography \u00b7 Title \u00b7 Option 4 \u00b7 semi-bold, 32 px",
+  "slug": "typography-title-option-4-semi-bold-32-px",
+  "height": null,
+  "minHeight": 948.5
+ },
+ {
+  "id": "4EM0-0",
+  "name": "Typography \u00b7 Title \u00b7 Option 5 \u00b7 regular, 48 px, headings semi-bold",
+  "slug": "typography-title-option-5-regular-48-px-headings-semi-bold",
+  "height": null,
+  "minHeight": 976.5
+ },
+ {
+  "id": "4EU0-0",
+  "name": "Typography \u00b7 Overview \u00b7 Headline A, semibold 40, headings semibold",
+  "slug": "typography-overview-headline-a-semibold-40-headings-semibold",
+  "height": null,
+  "minHeight": 911.5
+ },
+ {
+  "id": "4F85-0",
+  "name": "Typography \u00b7 Overview \u00b7 Headline B, regular 48, headings medium",
+  "slug": "typography-overview-headline-b-regular-48-headings-medium",
+  "height": null,
+  "minHeight": 920.5
+ },
+ {
+  "id": "4FMA-0",
+  "name": "Typography \u00b7 Overview \u00b7 Headline C, semibold 32, compact",
+  "slug": "typography-overview-headline-c-semibold-32-compact",
+  "height": null,
+  "minHeight": 887
+ },
+ {
+  "id": "4G0F-0",
+  "name": "Typography \u00b7 Overview \u00b7 Headline D, semibold 40, quiet section labels",
+  "slug": "typography-overview-headline-d-semibold-40-quiet-section-labels",
+  "height": null,
+  "minHeight": 895
+ },
+ {
+  "id": "4GEK-0",
+  "name": "Typography \u00b7 Overview \u00b7 Headline E, medium 44, medium throughout",
+  "slug": "typography-overview-headline-e-medium-44-medium-throughout",
+  "height": null,
+  "minHeight": 915
  }
 ];

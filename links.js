@@ -17,7 +17,7 @@
   var CHILLER = [["Chiller watch", "3MOV-1", { nth: 0 }]].concat(WATCH);
   var INSTR_SETTINGS = [["Rename instrument", "418G-0"], ["Remove", "3UXJ-1", { nth: 0 }], ["Invite a person", "3UVB-1"],
     ["Retire instrument", "418W-0", { nth: -1 }], ["Remora", "3OEL-1"], ["Proteomics Core", "3MDE-1"]];
-  var ALERTS = [["How alerts are sent", "3UKO-1"], ["On", "46AQ-0", { nth: 0 }]];
+  var ALERTS = [["How alerts are sent", "3UKO-1"], ["On", "46AQ-0", { nth: 0 }], ["On", "4DYW-0", { nth: 2 }]];
   var ADD = [["Look up", "4164-0"], ["Cancel", "3NIR-1"]];
   var L = {
     "3W3M-1": [["Watchlists", "4C7N-0", { nth: -1, up: 0 }], ["Remora", "3OEL-1"], ["Proteomics Core", "3MDE-1"], ["Device temperature 2", "3L2N-2", { nth: 0 }], ["Mobility calibration", "3O41-1", { nth: 0 }]].concat(TABS),
@@ -29,9 +29,11 @@
     "3UOR-1": TABS.concat(SETTINGS, INSTR_SETTINGS), "4431-0": TABS.concat(SETTINGS, INSTR_SETTINGS),
     "3UXJ-1": TABS.concat(SETTINGS, [["Undo", "3UOR-1"]], INSTR_SETTINGS),
     "3OUA-1": TABS.concat(SETTINGS, ALERTS), "3UKO-1": TABS.concat(SETTINGS, [["How alerts are sent", "3OUA-1"]]),
+    "4DYW-0": TABS.concat(SETTINGS, ALERTS),
     "46AQ-0": TABS.concat(SETTINGS, [["Off", "3OUA-1", { nth: 0 }], ["How alerts are sent", "3UKO-1"]]),
     "3OEL-1": [["Bubble Fish", "3W3M-1"], ["Open Bubble Fish", "3W3M-1"]].concat(REMORA), "4CEN-0": REMORA, "4CHO-0": REMORA,
     "4CN8-0": REMORA.concat([["Bubble Fish", "3W3M-1"], ["Open settings of Bubble Fish", "3UOR-1"]]),
+    "4DSN-0": [["Cancel", "3UOR-1"], ["Try again", "4431-0"], ["@outside", "3UOR-1"]],
     "3UVB-1": [["Cancel", "3UOR-1"], ["Send invitation", "4431-0"], ["@outside", "3UOR-1"]],
     "418G-0": [["Cancel", "3UOR-1"], ["Save name", "3UOR-1"], ["@outside", "3UOR-1"]],
     "418W-0": [["Cancel", "3UOR-1"], ["Retire instrument", "44I4-0", { nth: -1 }], ["@outside", "3UOR-1"]],
@@ -69,6 +71,7 @@
     "3P3T-1": [["Clownfish", "3W3M-1", { up: 2 }], ["Bubble Fish", "3W3M-1", { up: 2 }], ["Lobster", "3LQR-2", { up: 2 }],
       ["Add instrument", "414Q-0", { nth: -1 }], ["Settings", "4BTR-0"], ["Help", "4BVE-0"], ["Keyboard shortcuts", "4BX3-0"], ["Sign out", "4BXT-0"], ["@outside", "3NIR-1"]]
   };
+  ["4E60-0", "4EA0-0", "4EE0-0", "4EI0-0", "4EM0-0", "4EU0-0", "4F85-0", "4FMA-0", "4G0F-0", "4GEK-0"].forEach(function (id) { L[id] = L["3W3M-1"]; });
   window.PROTO_HEADER = HEADER;
   window.PROTO_LINKS = L;
 })();
