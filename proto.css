@@ -4,7 +4,7 @@ body { background: #DDE0E4; min-width: 1440px; }
 .artboard { width: 1440px; margin: 0 auto; background: #FFFFFF; position: relative; }
 .proto-scrim { position: fixed; inset: 0; z-index: 50; display: flex; align-items: center; justify-content: center; background: rgba(11, 11, 12, 0.36); }
 .proto-hot { cursor: pointer; }
-.proto-show .proto-hot, .proto-flash .proto-hot { outline: 2px solid rgba(37, 99, 235, 0.75); outline-offset: 1px; background-color: rgba(37, 99, 235, 0.08) !important; border-radius: 6px; }
+.proto-show .proto-hot, .proto-flash .proto-hot { outline: 2px solid rgba(37, 99, 235, 0.75); outline-offset: 1px; border-radius: 6px; }
 .proto-flash .proto-hot { transition: outline-color .6s; }
 .proto-bar { position: fixed; left: 50%; bottom: 16px; transform: translateX(-50%); z-index: 100; display: flex; align-items: center; gap: 4px;
   padding: 6px; border-radius: 999px; background: rgba(17, 19, 22, 0.88); color: #fff; font: 500 12px/16px Inter, system-ui, sans-serif;
